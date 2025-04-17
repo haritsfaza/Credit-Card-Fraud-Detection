@@ -1,5 +1,7 @@
 # Credit Card Fraud Detection
-**Code:** [creditcard.ipynb](https://github.com/haritsfaza/Chocolate-Sales/blob/main/Chocolate%20Sales.ipynb)
+**Code:** [creditcard.ipynb](https://github.com/haritsfaza/credit-card-fraud-detection/blob/main/creditcard.ipynb)
+
+**Dataset:** [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 **Goal:** The goal of this project is to automatically detect fraudulent credit card transactions based on patterns from historical data. Since the number of fraud cases is very small compared to normal transactions.
 
@@ -16,6 +18,8 @@ However, the precision was relatively low at 0.06, indicating that many of the t
 The model also achieved a ROC-AUC score of 0.9721, reflecting a high capability in distinguishing between fraudulent and legitimate transactions.
 
 The confusion matrix further supports this result:
+![confusion_matrix](https://github.com/user-attachments/assets/78372e13-c46c-4b53-b638-51a8c38d8613)
+
 
 Only 8 fraud cases were missed (false negatives), while 1,390 normal transactions were incorrectly flagged as fraud (false positives). Overall, the model provided a strong baseline for fraud detection and can be further improved using more advanced models or resampling techniques.
 
